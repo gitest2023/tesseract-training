@@ -227,3 +227,6 @@ data/prepared/*
 scripts/log*
 trainfiles/*
 trainoutput/*
+.out/
+runs/
+tools/

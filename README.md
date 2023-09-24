@@ -14,3 +14,17 @@
 
 ## 5 - Purge before training
     python scripts/purge.py
+
+## 6 - Predict
+    tesseract <path-to-image> <path-to-output> --oem 1 -l eng+vie
+    tesseract data/prepared/vie.vni.exp1.png ./.out/output --oem 3 -l vie
+    tesseract data/prepared/vie.vni.exp1.png stdout --oem 3 -l vie --psm 7
+
+## 7 - List all options
+    tesseract --help-extra
+
+## 8 - List all available languages
+    tesseract --list-langs
+
+## 8 - References
+    https://muthu.co/all-tesseract-ocr-options/
